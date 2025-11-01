@@ -1,0 +1,159 @@
+General Styling
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f8f9fa;
+}
+
+/* Navigation Bar */
+.navbar {
+    background-color: #196b54;
+    padding: 15px 0;
+}
+
+.navbar ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    margin: 0;
+    padding: 0;
+}
+
+.navbar a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s;
+}
+
+.navbar a:hover {
+    color: #fea7ca;
+}
+
+/* Header Section */
+.header {
+    text-align: center;
+    padding: 30px;
+    background-color: white;
+}
+
+.header img {
+    width: 200px;
+    border-radius: 50%;
+    margin-bottom: 15px;
+}
+
+.header h1 {
+    color: #196b54;
+}
+
+/* Table Section */
+.table-section {
+    padding: 30px;
+    text-align: center;
+}
+
+.table-section h2 {
+    color: #b9264a;
+    margin-bottom: 20px;
+}
+
+table {
+    width: 80%;
+    margin: 0 auto;
+    border-collapse: collapse;
+    background-color: white;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+th, td {
+    padding: 12px;
+    border: 1px solid #ddd;
+}
+
+th {
+    background-color: #196b54;
+    color: white;
+}
+
+tr:nth-child(even) {
+    background-color: #621212;
+}
+
+tr:hover {
+    background-color: #fea7ca;
+    color: white;
+}
+
+
+/* General page style */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f8f9fa;
+    margin: 0;
+    padding: 0;
+}
+
+/* Form container */
+.form-container {
+    max-width: 500px;
+    background: white;
+    margin: 50px auto;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+/* Heading */
+.form-container h2 {
+    text-align: center;
+    color: #196b54;
+    margin-bottom: 20px;
+}
+
+/* Label styling */
+label {
+    display: block;
+    margin-bottom: 8px;
+    font-weight: bold;
+    color: #333;
+}
+
+/* Input & Textarea */
+input, textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 15px;
+    transition: 0.3s;
+}
+
+/* Input focus effect */
+input:focus, textarea:focus {
+    border-color: #196b54;
+    outline: none;
+    box-shadow: 0 0 5px rgba(25,107,84,0.5);
+}
+
+/* Button styling */
+button {
+    width: 100%;
+    background-color: #196b54;
+    color: white;
+    border: none;
+    padding: 12px;
+    font-size: 16px;
+    font-weight: bold;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background 0.3s;
+}
+
+/* Button hover effect */
+button:hover {
+    background-color: #b9264a;
+}
