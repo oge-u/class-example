@@ -91,15 +91,15 @@ tr:hover {
 /* General page style */
 body {
     font-family: Arial, sans-serif;
-    background-color: #f8f9fa;
+    background-color: #195086;
     margin: 0;
     padding: 0;
 }
 
 /* Form container */
 .form-container {
-    max-width: 500px;
-    background: white;
+    max-width: 400px;
+    background: rgb(159, 21, 21);
     margin: 50px auto;
     padding: 30px;
     border-radius: 10px;
@@ -118,15 +118,15 @@ label {
     display: block;
     margin-bottom: 8px;
     font-weight: bold;
-    color: #333;
+    color: #49159c;
 }
 
 /* Input & Textarea */
 input, textarea {
-    width: 100%;
+    width: 70%;
     padding: 10px;
     margin-bottom: 20px;
-    border: 1px solid #ccc;
+    border: 5px solid #990f7b;
     border-radius: 5px;
     font-size: 15px;
     transition: 0.3s;
@@ -134,15 +134,15 @@ input, textarea {
 
 /* Input focus effect */
 input:focus, textarea:focus {
-    border-color: #196b54;
+    border-color: #91c616;
     outline: none;
     box-shadow: 0 0 5px rgba(25,107,84,0.5);
 }
 
 /* Button styling */
 button {
-    width: 100%;
-    background-color: #196b54;
+    width: 70%;
+    background-color: #a72398;
     color: white;
     border: none;
     padding: 12px;
@@ -155,5 +155,5 @@ button {
 
 /* Button hover effect */
 button:hover {
-    background-color: #b9264a;
+    background-color: #2a118d;
 }
