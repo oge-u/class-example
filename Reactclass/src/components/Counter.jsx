@@ -7,8 +7,8 @@ function Counter() {
     <div style={{ marginTop: "20px" }}>
       <h2>Friend Counter: {count}</h2>
 
-      <button onClick={() => setCount(count + 1)}>Add Friend</button>
-      <button onClick={() => setCount(count - 1)} style={{ margin: "0 10px" }}>
+      <button onClick={() => setCount(count + 4)}>Add Friend</button>
+      <button onClick={() => setCount(count - 4)} style={{ margin: "0 10px" }}>
         Remove Friend
       </button>
       <button onClick={() => setCount(0)}>Reset</button>

@@ -102,6 +102,23 @@
 // export default App;
 
 
+// import { useState } from "react";
+
+// function Counter() {
+//   const [count, setCount] = useState(0);
+
+//   return (
+//     <div>
+//       <h2>Count: {count}</h2>
+//       <button onClick={() => setCount(count + 1)}>Increase</button>
+//       <button onClick={() => setCount(count - 1)}>decrease</button>
+//     </div>
+//   );
+// }
+
+// export default Counter
+
+
 // import { useState, useEffect } from "react";
 
 // function App() {
@@ -148,25 +165,55 @@
 
 
 
+// import { Routes, Route, Link } from "react-router-dom";
+// import Home from "./pages/Home";
+// import About from "./pages/About";
+// import Contact from "./pages/Contact";
+
+// function App() {
+//   return (
+//     <div>
+//       <nav>
+//         <Link to="/">Home</Link> | 
+//         <Link to="/about">About</Link> | 
+//         <Link to="/contact">Contact</Link>
+//       </nav>
+
+//       <Routes>
+//         <Route path="/" element={<Home />} />
+//         <Route path="/about" element={<About />} />
+//         <Route path="/contact" element={<Contact />} />
+//       </Routes>
+//     </div>
+//   );
+// }
+
+// export default App;
+
+
 import { Routes, Route, Link } from "react-router-dom";
 import Home from "./pages/Home";
-import About from "./pages/About";
-import Contact from "./pages/Contact";
+import Products from "./pages/Product";
+import Cart from "./pages/Cart";
 
 function App() {
   return (
     <div>
+
+      {/* Navigation Bar */}
       <nav>
-        <Link to="/">Home</Link> | 
-        <Link to="/about">About</Link> | 
-        <Link to="/contact">Contact</Link>
+        <Link to="/">Home</Link> |{" "}
+        <Link to="/products">Products</Link> |{" "}
+        <Link to="/cart">Cart</Link>
       </nav>
 
+      {/* Page Routes */}
       <Routes>
         <Route path="/" element={<Home />} />
-        <Route path="/about" element={<About />} />
-        <Route path="/contact" element={<Contact />} />
+        <Route path="/products" element={<Products />} />
+        <Route path="/cart" element={<Cart />} />
       </Routes>
+
     </div>
   );
 }

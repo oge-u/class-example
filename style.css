@@ -1,14 +1,49 @@
-General Styling
+/* *{
+    background-color: aquamarine;
+}
+p{
+    color: blueviolet;
+    font-weight: bold;
+}
+
+.div1{
+    width: 100px;
+   height: 200px;
+    border: 5px dotted red;
+    background-color: blueviolet;
+    padding: 10px;
+    margin: 10px;
+color: white
+}
+
+#div1{
+   width: 50%;
+    height: 200px;
+    border: 2px solid rgb(40, 81, 176);
+    background-color: rgb(184, 222, 15); 
+}
+
+p, h1 {
+    color: rgb(243, 12, 170);
+} */
+
+
+
+
+
+
+
+/* General Styling
 body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
-    background-color: #f8f9fa;
-}
+    background-color: #0eaa1b;
+} 
 
 /* Navigation Bar */
-.navbar {
-    background-color: #196b54;
+ .navbar {
+    background-color: #8a2547;
     padding: 15px 0;
 }
 
@@ -30,10 +65,10 @@ body {
 
 .navbar a:hover {
     color: #fea7ca;
-}
+} 
 
 /* Header Section */
-.header {
+ .header {
     text-align: center;
     padding: 30px;
     background-color: white;
@@ -50,7 +85,7 @@ body {
 }
 
 /* Table Section */
-.table-section {
+ .table-section {
     padding: 30px;
     text-align: center;
 }
@@ -85,44 +120,44 @@ tr:nth-child(even) {
 tr:hover {
     background-color: #fea7ca;
     color: white;
-}
+} 
 
 
 /* General page style */
-body {
+ body {
     font-family: Arial, sans-serif;
     background-color: #195086;
     margin: 0;
     padding: 0;
-}
+} 
 
 /* Form container */
-.form-container {
+ .form-container {
     max-width: 400px;
     background: rgb(159, 21, 21);
     margin: 50px auto;
     padding: 30px;
     border-radius: 10px;
     box-shadow: 0 0 10px rgba(0,0,0,0.1);
-}
+} 
 
 /* Heading */
-.form-container h2 {
+ .form-container h2 {
     text-align: center;
     color: #196b54;
     margin-bottom: 20px;
-}
+} 
 
 /* Label styling */
-label {
+ label {
     display: block;
     margin-bottom: 8px;
     font-weight: bold;
     color: #49159c;
-}
+} 
 
 /* Input & Textarea */
-input, textarea {
+ input, textarea {
     width: 70%;
     padding: 10px;
     margin-bottom: 20px;
@@ -130,14 +165,14 @@ input, textarea {
     border-radius: 5px;
     font-size: 15px;
     transition: 0.3s;
-}
+} 
 
 /* Input focus effect */
-input:focus, textarea:focus {
+ input:focus, textarea:focus {
     border-color: #91c616;
     outline: none;
     box-shadow: 0 0 5px rgba(25,107,84,0.5);
-}
+} 
 
 /* Button styling */
 button {
@@ -151,9 +186,9 @@ button {
     border-radius: 5px;
     cursor: pointer;
     transition: background 0.3s;
-}
+} 
 
 /* Button hover effect */
-button:hover {
+ button:hover {
     background-color: #2a118d;
-}
+} 

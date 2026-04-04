@@ -12,6 +12,7 @@
         <h2>Contact / Feedback Form</h2>
 
         <form id="contactForm">
+
             <!-- Full Name -->
             <label for="fullname">Full Name:</label>
             <input type="text" id="fullname" name="fullname" placeholder="Enter your full name" required>
@@ -28,6 +29,27 @@
             <!-- Message -->
             <label for="message">Message:</label>
             <textarea id="message" name="message" rows="5" placeholder="Type your message here..." required></textarea>
+
+            <label for="skills">Skills:</label>
+            <input type="checkbox" value="html">HTML
+            <input type="checkbox" value="css">css
+            <input type="checkbox" value="js">js
+
+
+            <label for="Gender">Gender</label>
+            <input type="radio" name="gender" value="male">male
+            <input type="radio" name="gender" value="female"> female
+
+
+            <label> experience level</label>
+            <input type="range" min="1" max="10">
+
+
+            <label>week</label>
+            <input type="week">
+
+             <label>month</label>
+            <input type="month">
 
             <!-- Send Button -->
             <button type="submit">Send</button>
